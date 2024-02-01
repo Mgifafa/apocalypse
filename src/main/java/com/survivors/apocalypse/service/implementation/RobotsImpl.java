@@ -13,7 +13,7 @@ public class RobotsImpl {
     @Value("${https://robotstakeover20210903110417.azurewebsites.net/robotcpu}")
     private String robotCpuUrl;
 
-    private final RestTemplate restTemplate;
+   /* private final RestTemplate restTemplate;
 
     public RobotService(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
@@ -24,4 +24,6 @@ public class RobotsImpl {
         return Arrays.asList(robots);
     }
 
+
+    */
 }
